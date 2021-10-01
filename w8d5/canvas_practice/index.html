@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Canvas Practice</title>
+  </head>
+
+  <body>
+    <canvas id="mycanvas" height="500" width="500"></canvas>
+    <script type="application/javascript" src="practice.js"></script>
+    <script>
+      const canvas = document.getElementById('mycanvas');
+      const ctx = canvas.getContext('2d');
+      ctx.fillStyle = 'blue';
+      ctx.fillRect(100, 100, 400, 450);
+    </script>
+  </body>
+</html>
